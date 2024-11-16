@@ -588,6 +588,26 @@ elif page == f"LLM API CO2 Emissions":
 
         # Add information about the calculation
 
+col1, col2 = st.columns(2)
+
+with col1:
+    st.markdown("""
+    Team Members:
+    - [Akhil Dua](https://www.linkedin.com/in/akhil--dua/)
+    - [Arihant Sheth](https://www.linkedin.com/in/arihantsheth/)
+    - [Mahima Jagadeesh Patel](https://www.linkedin.com/in/mahima-jagadeesh-patel-8641441a3/)
+    - [Reuben Mathew](https://www.linkedin.com/in/iamreubengm/)
+    """)
+
+with col2:
+    st.markdown("""
+You can find the code for this project on [GitHub](https://github.com/AryaStark13/CMU-BNY-Datathon)
+            
+You can find our submission notebook [here](https://colab.research.google.com/drive/1NoLJQ5fjS00PnTC9FNXzQB_4NukTVwS0?usp=sharing)
+            
+You can find our final video submission [here](https://drive.google.com/file/d/1kJrBznn2JJ77qxepGrLWU6I-xTOgI61o/view?usp=sharing)
+    """)
+
 # Footer
 st.markdown("---")
 st.markdown("Made with ❤️ to help reduce ML's carbon footprint for CMU BNY Mellon Datathon 2024")
